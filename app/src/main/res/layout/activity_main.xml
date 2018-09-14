@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false">
+
+    <com.bottombar.NoTouchViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.bottombar.BottomBarLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/status_bar_light_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.bottombar.BottomBarItem
+            style="@style/AppMainBottomBarStyle"
+            app:iconNormal="@drawable/icon_tab"
+            app:iconSelected="@drawable/icon_tab"
+            app:itemText="Light Mode"
+            />
+
+        <com.bottombar.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            app:itemTextSize="10sp"
+            app:iconNormal="@drawable/icon_tab_center"
+            app:iconSelected="@drawable/icon_tab_center"
+            app:textColorNormal="@color/tab_icon_gray"
+            app:textColorSelected="@color/colorAccent"
+            app:itemMarginTop="10dp"
+            />
+
+        <com.bottombar.BottomBarItem
+            style="@style/AppMainBottomBarStyle"
+            app:iconNormal="@drawable/icon_tab"
+            app:iconSelected="@drawable/icon_tab"
+            app:itemText="Translucent Mode"
+            />
+
+    </com.bottombar.BottomBarLayout>
+
+</LinearLayout>

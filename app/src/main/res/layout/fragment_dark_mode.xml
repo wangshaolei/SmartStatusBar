@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background="@color/page_bg"
+    >
+
+        <TextView
+            style="@style/TitleBarDarkStyle"
+            android:text="@string/title"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            android:shadowColor="@color/colorAccent"
+            android:shadowDx="4"
+            android:shadowDy="3"
+            android:shadowRadius="3"
+            android:text="@string/hint"
+            />
+</RelativeLayout>

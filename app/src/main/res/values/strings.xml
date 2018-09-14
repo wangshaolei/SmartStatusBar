@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SmartStatusbar</string>
+
+
+    <string name="title">Title</string>
+
+    <string name="hint">Activity方案请参照BaseAppCompatActivity，特殊颜色重写setStatusBar，对xml无侵入不需要在xml设置fitsSystemWindows</string>
+
+</resources>

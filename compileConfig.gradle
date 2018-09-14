@@ -1,0 +1,21 @@
+ext {
+
+    externalPackageName = 'com.len.smartstatusbar'
+    externalCompileSdkVersion = 27
+    externalBuildToolsVersion = "27.0.3"
+    externalMinSdkVersion = 21
+    externalTargetSdkVersion = 27
+
+    externalVersionCode = 100
+    externalVersionName = "1.0.0"
+
+    externalJunit = 'junit:junit:4.12'
+    externalAndroidSupportV4 = 'com.android.support:support-v4:27.1.0'
+    externalAndroidAppCompatV7 = 'com.android.support:appcompat-v7:27.1.0'
+    //project modules
+    externalProjectModules = [
+            bottombar : ":library_bottombar",
+            statusbar: ":library_statusbar"
+    ]
+
+}
