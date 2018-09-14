@@ -4,7 +4,7 @@ One smart StatusBar, support 5.0 6.0 light mode, dark mode, translucent mode.
 ![](https://github.com/wangshaolei/SmartStatusBar/blob/master/img/icon.png)
 
 ## Description
-Thin Labrary support 5.0 and 6.0, if you want to support 4.4x, please visit https://github.com/niorgai/StatusBarCompat.
+This Labrary support 5.0 and 6.0, if you want to support 4.4x, please visit https://github.com/niorgai/StatusBarCompat.
 
 
 #Thanks
