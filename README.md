@@ -7,7 +7,7 @@ One smart StatusBar, support 5.0 6.0 light mode, dark mode, translucent mode.
 This Labrary support 5.0 and 6.0, if you want to support 4.4x, please visit https://github.com/niorgai/StatusBarCompat.
 
 
-#Thanks
+# Thanks
 
 [StatusBarCompat](https://github.com/niorgai/StatusBarCompat)
 
@@ -16,7 +16,7 @@ This Labrary support 5.0 and 6.0, if you want to support 4.4x, please visit http
 [QMUI_Android](https://github.com/QMUI/QMUI_Android)
 
 
-#Screenshot
+# Screenshot
 ## Translucent Mode
 ![](https://github.com/wangshaolei/SmartStatusBar/blob/master/img/1.png)
 ## 6.0 Dark Mode
